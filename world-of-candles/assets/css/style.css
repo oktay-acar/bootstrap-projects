@@ -1,0 +1,84 @@
+body {
+  background: #1b2631;
+  color: #d0d3d4;
+  font-family: "Poppins", sans-serif;
+  padding: 65px 0 65px;
+}
+
+/* ------- NAVBAR ------- */
+#mainNavbar {
+  background: #1b2631;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .navbar-brand {
+  color: #bb8fce;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+#mainNavbar .nav-link {
+  color: #d0d3d4;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #bb8fce;
+}
+
+#mainNavbar .nav-link:active {
+  color: #fff;
+}
+
+/* ------- SECTION ------- */
+#headingGroup span {
+  color: #bb8fce;
+}
+
+#headingGroup h1 {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.blurb h2 {
+  color: #bb8fce;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.blurb p {
+  font-size: 1.15rem;
+  font-weight: 200;
+  line-height: 2;
+  font-style: italic;
+}
+
+/* ------- FOOTER ------- */
+footer {
+  background: #34495e;
+}
+
+footer h3 {
+  font-size: 1.15rem;
+}
+
+footer .myName {
+  color: #bb8fce;
+}
+
+/* ------- MEDIA QUARIES ------- */
+@media (max-width: 992px) {
+  #headingGroup h1 {
+    font-size: 2.5rem;
+    font-weight: 100;
+  }
+  .blurb h2 {
+    font-size: 2rem;
+    font-weight: 100;
+  }
+  .blurb p {
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.8;
+  }
+}
